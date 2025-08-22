@@ -68,7 +68,7 @@ To Start - npm start
 # .env in Server
 PORT = 5000
 
-MONGO_URI = mongodb://localhost:27017 (Connect your mongodb locally)
+MONGO_URI = mongodb://localhost:27017 (Connect the mongodb locally)
 
 JWT_SECRET = your_super_secret_key
 
