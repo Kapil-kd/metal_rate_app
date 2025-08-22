@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = axios.create({ baseURL: `${process.env.REACT_APP_SERVER}/api/purities` });
+const API = axios.create({ baseURL: `https://metal-rate-app.onrender.com/api/purities` });
 
 export const getPurities = (token) =>
   API.get('/', { headers: { Authorization: `Bearer ${token}` } }).then(r => r.data);
@@ -12,3 +12,4 @@ export const updatePurity = (token, id, data) =>
 
 export const deletePurity = (token, id) =>
   API.delete(`/${id}`, { headers: { Authorization: `Bearer ${token}` } }).then(r => r.data);
+
