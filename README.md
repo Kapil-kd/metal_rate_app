@@ -37,7 +37,9 @@ File name - fe
 
 # Setup Frontend (React)
 cd fe
+
 npm install
+
 To start - npm start
 
 # .env in Client
