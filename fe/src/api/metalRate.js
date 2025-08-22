@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = axios.create({ baseURL: `${process.env.REACT_APP_SERVER}/api/metalRates` });
+const API = axios.create({ baseURL: `https://metal-rate-app.onrender.com/api/metalRates` });
 
 const authConfig = (token) => ({ headers: { Authorization: `Bearer ${token}` } });
 
@@ -17,3 +17,4 @@ export const listRates = (token, { metal, purityId, page, limit }) =>
     ...authConfig(token),
     params: { metal, purityId, page, limit }
   }).then(r => r.data);
+
