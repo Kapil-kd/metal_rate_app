@@ -31,6 +31,10 @@ Tech Stack
 • Database: MongoDB.
 • Authentication: JWT token-based or any custom security standard.
 
+
+CLone url = https://github.com/Kapil-kd/metal_rate_app.git
+
+
 # Frontend
 
 File name - fe 
