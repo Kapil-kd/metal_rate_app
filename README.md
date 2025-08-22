@@ -44,9 +44,13 @@ To start - npm start
 
 # .env in Client
 Add (REACT_APP_SERVER=http://localhost:5000) in env file to connect locally.
+
 Change baseURL(process.env.REACT_APP_SERVER/api/auth/) in fe/src/auth.js 
+
 Change baseURL(process.env.REACT_APP_SERVER/api) in fe/src/authService.js 
+
 Change baseURL(process.env.REACT_APP_SERVER/api/metalRates) in fe/src/metalRate.js
+
 Change baseURL(process.env.REACT_APP_SERVER/api/purities) in fe/src/purity.js 
 
 
@@ -56,19 +60,28 @@ File name - be
 
 # Setup Backend 
 cd be
+
 npm install
+
 To Start - npm start
 
 # .env in Server
 PORT = 5000
+
 MONGO_URI = mongodb://localhost:27017 (Connect your mongodb locally)
+
 JWT_SECRET = your_super_secret_key
 
 # Routes
 Signup - POST - api/auth/signup
+
 Login - POST - api/auth/login
+
 Login verify - GET - api/auth/loginverify
+
 Logout - GET - api/auth/logout 
+
+
 
 
 
