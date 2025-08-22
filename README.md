@@ -81,7 +81,19 @@ Login verify - GET - api/auth/loginverify
 
 Logout - GET - api/auth/logout 
 
+Purities - GET - /api/purities/
 
+Purities - POST - /api/purities/
+
+Purities - PUT - /api/purities/:id
+
+Purities - DELETE - /api/purities/:id
+
+MetalRates - GET - /api/metalRates/latest
+
+MetalRates - POST - /api/metalRates/
+
+MetalRates - GET - /api/metalRates/
 
 
 
