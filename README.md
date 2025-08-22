@@ -57,6 +57,20 @@ Change baseURL(process.env.REACT_APP_SERVER/api/metalRates) in fe/src/metalRate.
 
 Change baseURL(process.env.REACT_APP_SERVER/api/purities) in fe/src/purity.js 
 
+# Frontend routes
+
+Home - http://localhost:3000/
+
+Signup - http://localhost:3000/signup
+
+Login - http://localhost:3000/login
+
+Dashboard - http://localhost:3000/dashboard
+
+Rates - http://localhost:3000/dashboard/rates
+
+
+
 
 # Backend
 
